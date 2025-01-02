@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    height: fit-content;
+    width: 100%;
+    max-width: 470px;
+    background: linear-gradient(130deg, #00feba, #5b5480);
+    color: #FFF;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between
+}
+
+.search input{
+    width: 100%;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+}
+
+.search img{
+    height: 20px;
+}
+
+.search button{
+    height: 50px;
+    width: 60px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.temp-img{
+    /* padding-top: 20px; */
+    height: 120px;
+    width: 120px
+}
+
+.temp-value{
+    font-size: 40px;
+
+}
+.cityName{
+    font-size: 2rem;
+    color: rgb(226, 223, 223);
+    text-transform: capitalize;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 50px 0;
+    color: rgb(226, 223, 223);
+}
+
+.humidity-value, .wind-value{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.humidity, .wind{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.info1, .info2{
+    display: flex;
+    align-items: center;
+}
